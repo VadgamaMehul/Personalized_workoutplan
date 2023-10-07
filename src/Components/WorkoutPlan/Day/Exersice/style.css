@@ -1,0 +1,27 @@
+.exercise {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solidblack;
+  margin: 10px;
+  padding: 0px 20px;
+  width: 90%;
+  border: 2px solid black;
+}
+.day > h1 {
+  margin-bottom: 0px;
+  padding: 10px 25px;
+  border: 2px solid black;
+}
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  margin: 0px 100px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  /* border: 2px solid black; */
+}

@@ -9,11 +9,16 @@ import Weight from "./Components/Form/Weight/Weight";
 import Exp from "./Components/Form/Workout Exp/Exp";
 import { Provider } from "react-redux";
 import store from "./Redux/store";
+import Workoutplan from "./Components/WorkoutPlan/Workoutplan";
+import Exersice from "./Components/Plan Components/Exersice";
 import Plan from "./Components/WorkoutPlan/Day/Day";
 
 
 function App() {
   return (
+    // <>
+    // <Exersice Exersicename={"PushUp"} sets={"4"} reps={3} rest_between_sets={90} />
+    // </>
     <Provider store={store}>
       <HashRouter>
         <Routes>

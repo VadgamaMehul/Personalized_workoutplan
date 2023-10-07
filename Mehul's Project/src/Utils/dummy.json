@@ -1,0 +1,740 @@
+[{
+  "gender": ["female","male"],
+  "age": 28,
+  "height": "162 cm",
+  "weight": "50 kg",
+  "body_type": ["skinny","ideal","heavier"],
+  "previous_workout_experience": ["beginner","intermediate","advanced"],
+  "workout_plan": {
+    "day_1": {
+      "exercise_1": {
+        "name": "Squats",
+        "sets": 4,
+        "reps": 12,
+        "rest_between_sets": "90 seconds"
+      },
+      "exercise_2": {
+        "name": "Push-Ups",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      },
+      "exercise_3": {
+        "name": "Planks",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      }
+    },
+    "day_2": {
+      "exercise_1": {
+        "name": "Deadlifts",
+        "sets": 4,
+        "reps": 8,
+        "rest_between_sets": "90 seconds"
+      },
+      "exercise_2": {
+        "name": "Bent Over Rows",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      },
+      "exercise_3": {
+        "name": "Planks",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      }
+    },
+    "day_3": {
+      "exercise_1": {
+        "name": "Squats",
+        "sets": 4,
+        "reps": 12,
+        "rest_between_sets": "90 seconds"
+      },
+      "exercise_2": {
+        "name": "Push-Ups",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      },
+      "exercise_3": {
+        "name": "Planks",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      }
+    },
+    "day_4": {
+      "exercise_1": {
+        "name": "Squats",
+        "sets": 4,
+        "reps": 12,
+        "rest_between_sets": "90 seconds"
+      },
+      "exercise_2": {
+        "name": "Push-Ups",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      },
+      "exercise_3": {
+        "name": "Planks",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      }
+    },
+    "day_5": {
+      "exercise_1": {
+        "name": "Squats",
+        "sets": 4,
+        "reps": 12,
+        "rest_between_sets": "90 seconds"
+      },
+      "exercise_2": {
+        "name": "Push-Ups",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      },
+      "exercise_3": {
+        "name": "Planks",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      }
+    },
+    "day_6": {
+      "exercise_1": {
+        "name": "Squats",
+        "sets": 4,
+        "reps": 12,
+        "rest_between_sets": "90 seconds"
+      },
+      "exercise_2": {
+        "name": "Push-Ups",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      },
+      "exercise_3": {
+        "name": "Planks",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      }
+    },
+    "day_7": {
+      "exercise_1": {
+        "name": "Kartik",
+        "sets": 4,
+        "reps": 12,
+        "rest_between_sets": "90 seconds"
+      },
+      "exercise_2": {
+        "name": "Push-Ups",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      },
+      "exercise_3": {
+        "name": "Planks",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      }
+    },
+    "day_8": {
+      "exercise_1": {
+        "name": "Squats",
+        "sets": 4,
+        "reps": 12,
+        "rest_between_sets": "90 seconds"
+      },
+      "exercise_2": {
+        "name": "Push-Ups",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      },
+      "exercise_3": {
+        "name": "Planks",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      }
+    },
+    "day_9": {
+      "exercise_1": {
+        "name": "Squats",
+        "sets": 4,
+        "reps": 12,
+        "rest_between_sets": "90 seconds"
+      },
+      "exercise_2": {
+        "name": "Push-Ups",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      },
+      "exercise_3": {
+        "name": "Planks",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      }
+    },
+    "day_10": {
+      "exercise_1": {
+        "name": "Squats",
+        "sets": 4,
+        "reps": 12,
+        "rest_between_sets": "90 seconds"
+      },
+      "exercise_2": {
+        "name": "Push-Ups",
+        "sets": 3,
+        "reps": 10,
+        "rest_between_sets": "60 seconds"
+      },
+      "exercise_3": {
+        "name": "Planks",
+        "duration": "45 seconds",
+        "rest_between_sets": "60 seconds"
+      }
+    }
+  }
+},
+{
+    "gender": "male",
+    "age": 28,
+    "height": "162 cm",
+    "weight": "58 kg",
+    "body_type": "Skinny",
+    "goal": "Weight Gain",
+    "previous_workout_experience": "Beginner",
+    "workout_plan": {
+      "day_1": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_2": {
+        "exercise_1": {
+          "name": "Deadlifts",
+          "sets": 4,
+          "reps": 8,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Bent Over Rows",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_3": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_5": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_6": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_7": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_8": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_9": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_10": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      }
+    }
+  },
+  {
+    "gender": "female",
+    "age": "28",
+    "height": "162",
+    "weight": "58",
+    "body_type": "slim",
+    "previous_workout_experience": "beginner",
+    "workout_plan": {
+      "day_1": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_2": {
+        "exercise_1": {
+          "name": "Deadlifts",
+          "sets": 4,
+          "reps": 8,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Bent Over Rows",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_3": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_5": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_6": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_7": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_8": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_9": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_10": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      }
+    }
+  },
+  {
+    "gender": "male",
+    "age": 28,
+    "height": "162 cm",
+    "weight": "58 kg",
+    "body_type": "Fat",
+    "goal": "Weight Gain",
+    "previous_workout_experience": "Beginner",
+    "workout_plan": {
+      "day_1": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_2": {
+        "exercise_1": {
+          "name": "Deadlifts",
+          "sets": 4,
+          "reps": 8,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Bent Over Rows",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_3": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_5": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_6": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_7": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_8": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_9": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      },
+      "day_10": {
+        "exercise_1": {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12,
+          "rest_between_sets": "90 seconds"
+        },
+        "exercise_2": {
+          "name": "Push-Ups",
+          "sets": 3,
+          "reps": 10,
+          "rest_between_sets": "60 seconds"
+        },
+        "exercise_3": {
+          "name": "Planks",
+          "duration": "45 seconds",
+          "rest_between_sets": "60 seconds"
+        }
+      }
+    }
+  }
+]
