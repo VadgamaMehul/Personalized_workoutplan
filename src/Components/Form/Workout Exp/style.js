@@ -6,6 +6,7 @@ export const normal = {
   fontFamily: "'Architects Daughter', cursive",
   color: "black",
   boxShadow: "5px 10px #888888",
+  fontFamily: 'Montserrat',
 };
 
 export const afterClick = {
@@ -16,4 +17,5 @@ export const afterClick = {
   fontFamily: "'Architects Daughter', cursive",
   color: "blue",
   boxShadow: "5px 5px 5px #888888",
+  fontFamily: 'Montserrat',
 };
