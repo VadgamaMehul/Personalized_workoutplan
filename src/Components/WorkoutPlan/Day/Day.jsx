@@ -9,10 +9,6 @@ function Plan() {
     return state.workout;
   });
 
-  function onDisptch(){
-	
-  }
-
   return (
     <>
       <div >
