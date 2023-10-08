@@ -67,7 +67,7 @@ function Exp() {
             </Link>
           </header>
           <main>
-            <h2>What's your body type?</h2>
+            <h2>Do you have any past Work-Out Exerience?</h2>
             <div
               style={{
                 display: "flex",
