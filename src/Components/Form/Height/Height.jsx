@@ -8,17 +8,11 @@ import {
   Container,
   Paper,
   InputAdornment,
+  useTheme,
+  useMediaQuery,
 } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { useSelector } from "react-redux";
-
-const paper = {
-  display: "flex",
-  flexDirection: "column",
-  alignItems: "center",
-  justifyContent: "space-between",
-  height: "93.5%",
-};
 
 function Height() {
   const intHeight = useSelector((state) => {
@@ -26,6 +20,8 @@ function Height() {
   });
   const [height, setHeight] = useState(intHeight);
   const [errorText, setErrorText] = useState("");
+  const theme = useTheme();
+  const isPhoneScreen = useMediaQuery(theme.breakpoints.down("sm"));
   const dispatch = useDispatch();
 
   function oncontinue() {
@@ -35,11 +31,28 @@ function Height() {
       setErrorText("Height must be between 50 and 270.");
     } else dispatch(addHeight(height));
   }
+
   return (
     <div className="main">
-      <Container style={{ width: "60%", height: "80%", padding: "0px" }}>
-        <Paper style={{ background: "#f1f5f8", height: "100%" }} elevation={6}>
-          <div>
+      <Container
+        maxWidth="sm"
+        style={{
+          width: isPhoneScreen ? "100%" : "800px",
+          height: isPhoneScreen ? "350px" : "400px",
+        }}
+      >
+        <Paper
+           elevation={10}
+           style={{
+             padding: "16px",
+             height: "100%",
+             display: "flex",
+             flexDirection: "column",
+             justifyContent: "space-between",
+             background:"#f1f5f8",
+           }}
+        >
+          <header>
             <Link to="/Age">
               <Button
                 className="headerbtn"
@@ -48,18 +61,20 @@ function Height() {
                 startIcon={<ArrowBackIcon />}
               ></Button>
             </Link>
-          </div>
-          <div style={paper}>
+          </header>
+
+          <main>
             <h2>How Tall Are You?</h2>
             <TextField
+              autoComplete="off"
               className="Height"
               type="number"
               id="outlined-basic"
               label="Height"
               variant="outlined"
               InputProps={{
-                startAdornment: (
-                  <InputAdornment position="start">Cm</InputAdornment>
+                endAdornment: (
+                  <InputAdornment position="end">Cm</InputAdornment>
                 ),
               }}
               value={height}
@@ -67,15 +82,10 @@ function Height() {
               error={!!errorText}
               helperText={errorText}
             />
-            {/* <Link to="/Weight" className="continue">
-              <Button variant="contained" onClick={oncontinue}>
-                Continue
-              </Button>
-            </Link> */}
+          </main>
+          <footer>
             <Button
-              className="continue"
               variant="contained"
-              // onClick={oncontinue}
               disabled={height === ""}
               onClick={oncontinue}
             >
@@ -91,7 +101,7 @@ function Height() {
                 Continue
               </Link>
             </Button>
-          </div>
+          </footer>
         </Paper>
       </Container>
     </div>

@@ -40,7 +40,7 @@ export function WorkOutPlan({ ex }) {
 
 function Exercise({ exname, sets, reps, rest_between_sets }) {
   return (
-    <div>
+    <div className="exe">
       <h1>{exname}</h1>
       <p>Sets: {sets}</p>
       <p>Reps: {reps}</p>

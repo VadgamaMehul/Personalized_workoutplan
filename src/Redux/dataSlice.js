@@ -18,12 +18,15 @@ const dataSlice = createSlice({
 	reducers: {
 		addAge(state, { payload }) {
 			state.age = payload;
+			console.log(payload);
 		},
 		addGender(state, { payload }) {
 			state.gender = payload;
+			console.log(payload);
 		},
 		addName(state, { payload }) {
 			state.name = payload;
+			console.log(payload);
 		},
 		addHeight(state, { payload }) {
 			state.height = payload;

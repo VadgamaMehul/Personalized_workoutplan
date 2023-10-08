@@ -8,24 +8,19 @@ import {
   Paper,
   Button,
   InputAdornment,
+  useTheme,
+  useMediaQuery,
 } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import { useSelector } from 'react-redux';
-
-const paper = {
-  display: "flex",
-  flexDirection: "column",
-  alignItems: "center",
-  justifyContent: "space-between",
-  height: "93.5%",
-};
+import { useSelector } from "react-redux";
 
 function Weight() {
   const intWeight = useSelector((state) => {
     return state.workout.weight;
   });
   const [weight, setWeight] = useState(intWeight);
-
+  const theme = useTheme();
+  const isPhoneScreen = useMediaQuery(theme.breakpoints.down("sm"));
   const dispatch = useDispatch();
 
   function oncontinue() {
@@ -33,9 +28,25 @@ function Weight() {
   }
   return (
     <div className="main">
-      <Container style={{ width: "60%", height: "80%", padding: "0px" }}>
-        <Paper style={{ background: "#f1f5f8", height: "100%" }} elevation={6}>
-          <div>
+      <Container
+        maxWidth="sm"
+        style={{
+          width: isPhoneScreen ? "100%" : "800px",
+          height: isPhoneScreen ? "350px" : "400px",
+        }}
+      >
+        <Paper
+           elevation={10}
+           style={{
+             padding: "16px",
+             height: "100%",
+             display: "flex",
+             flexDirection: "column",
+             justifyContent: "space-between",
+             background:"#f1f5f8",
+           }}
+        >
+          <header>
             <Link to="/Height">
               <Button
                 className="headerbtn"
@@ -44,37 +55,42 @@ function Weight() {
                 startIcon={<ArrowBackIcon />}
               ></Button>
             </Link>
-          </div>
-          <div style={paper}>
+          </header>
+          <main>
             <h2>What is your weight?</h2>
             <TextField
               label="Weight"
               id="outlined-start-adornment"
               sx={{ m: 1, width: "25ch" }}
               InputProps={{
-                startAdornment: (
-                  <InputAdornment position="start">kg</InputAdornment>
+                endAdornment: (
+                  <InputAdornment position="end">Kg</InputAdornment>
                 ),
               }}
+              autoComplete="off"
               value={weight}
               onChange={(e) => setWeight(e.target.value)}
             />
-            {/* <Link to="/Bodytype" className="continue">
+          </main>
+          {/* <Link to="/Bodytype" className="continue">
               <Button variant="contained" onClick={oncontinue}>
                 Continue
               </Button>
             </Link> */}
+          <footer>
             <Button
-              className="continue"
               variant="contained"
               onClick={oncontinue}
               disabled={weight === ""}
             >
-              <Link to="/Bodytype" style={{textDecoration:'none',color:'white'}}>
+              <Link
+                to="/Bodytype"
+                style={{ textDecoration: "none", color: "white" }}
+              >
                 Continue
               </Link>
             </Button>
-          </div>
+          </footer>
         </Paper>
       </Container>
     </div>
