@@ -59,6 +59,7 @@ function Weight() {
           <main>
             <h2>What is your weight?</h2>
             <TextField
+            type="number"
               label="Weight"
               id="outlined-start-adornment"
               sx={{ m: 1, width: "25ch" }}

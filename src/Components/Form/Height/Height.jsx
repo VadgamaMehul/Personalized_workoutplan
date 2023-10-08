@@ -42,15 +42,15 @@ function Height() {
         }}
       >
         <Paper
-           elevation={10}
-           style={{
-             padding: "16px",
-             height: "100%",
-             display: "flex",
-             flexDirection: "column",
-             justifyContent: "space-between",
-             background:"#f1f5f8",
-           }}
+          elevation={10}
+          style={{
+            padding: "16px",
+            height: "100%",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
+            background: "#f1f5f8",
+          }}
         >
           <header>
             <Link to="/Age">
@@ -67,7 +67,6 @@ function Height() {
             <h2>How Tall Are You?</h2>
             <TextField
               autoComplete="off"
-              className="Height"
               type="number"
               id="outlined-basic"
               label="Height"
@@ -96,7 +95,6 @@ function Height() {
                     : "/Weight"
                 }
                 style={{ textDecoration: "none", color: "white" }}
-                // disabled={height.trim() === '' || !!errorText}
               >
                 Continue
               </Link>
